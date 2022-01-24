@@ -133,26 +133,27 @@ li:hover {
 .container-main {
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-}
+ }
 
-.container-text,
+.container-tex,
 .container-image {
     width: 40%;
     display: inline-block;
 }
 
-.container-text {
-    width: 30%;
-    float: left;
-    
-}
-
 .container-image {
     width: 53%;
-    float: left;
+}
+
+.container-text {
+    width: 30%;
+    float: right;
+    margin: 130px 109px;
+}
+
+
+section:nth-child(2n+1) .container-image {
+    float: right;
 }
 
 
