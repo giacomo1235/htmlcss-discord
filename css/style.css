@@ -5,6 +5,8 @@
 }
 
 html {
+    width: 1400px;
+    min-height: 350px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -78,12 +80,8 @@ li:hover {
 .article-main {
     color: white;
     width: 50%;
-    position: relative;
-    padding: 0 0.8em;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 0.8em;
+    padding: 0 0.8em;   
+    margin: 60px auto;
 
 }
 
@@ -102,8 +100,7 @@ li:hover {
 }
 
 .buttons {
-    position: relative;
-    top: 25%; 
+    margin-top: 60px; 
     display: inline-block;
 }
 
