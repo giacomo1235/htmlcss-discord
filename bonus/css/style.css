@@ -246,7 +246,6 @@ footer {
 }
 .small {
     width: 15%;
-    line-height: 26px;
 }
 
 .main-footer div::first-line {
@@ -262,11 +261,10 @@ footer {
     width: 24px;
     height: 16px;
     margin-right: 5px;
-    float: left;
 }
 
 .language p {
-    float: left;
+    float: right;
 }
 
 .social {
@@ -285,11 +283,9 @@ footer {
 .end .download1 {
     padding: 10px 10px;
     margin: 0;
-    color: white;
     font-weight: normal;
     font-size: 1rem;
 }
-
 
 
 
